@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ru">
+<head>  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Mobile viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Tags -->
+  <meta name="theme-color" content="#000">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <!-- <meta property="og:image" content="share.jpg"> -->
+  <!-- Website Title -->
+  <title>Page Title</title>
+  <!-- Website Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" sizes="192x192" type="image/x-icon" href="android-chrome-192x192.png">
+  <link rel="icon" sizes="32x32" type="image/png" href="favicon-32x32.png">
+  <link rel="icon" sizes="16x16" type="image/png" href="favicon-16x16.png">
+  <!-- Include CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <h1 class="visually-hidden">Title</h1>
+  <main>
+    <section class="home" id="home">
+      <div class="container">
+
+        <a class="logo home__logo" href="https://www.mi.com" target="_blank">
+          <img class="logo__img" src="img/xiaomi-logo.svg" alt="Xiaomi">
+        </a>
+  
+        <div class="home-text">
+          <h2 class="home__title">
+            Искусство момента —<br>
+            в деталях.
+          </h2>
+          <p>
+            Коллаборация Mi Note 10<br>
+            и Андрея Бергера.
+          </p>
+          
+          <footer class="home__footer">
+            Совсем скоро —
+            <time datetime="2020-03-27">27 марта 2020</time>.
+          </footer>
+        </div>
+
+        <img class="home__phones" src="img/home-phones.png" alt="">
+
+        <img class="home__bg" src="img/home-bg.jpg" alt="">
+
+        <a class="scrolldown scrolldown--outline home__scrolldown" href="#inspiration">
+          <span class="scrolldown__label">Узнать больше</span>
+          <img class="scrolldown__img" src="img/icons/arrow.svg" alt="">
+        </a>
+
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.home -->
+
+    <section class="inspiration" id="inspiration">
+      <div class="container">
+
+        <h2 class="visually-hidden">Вдохновление</h2>
+
+        <div class="inspiration-text">
+          <span>Уличное искусство не вечно.</span>
+          <span>Оно ускользает от нас — как время. Искусство не статично.</span>
+          <span>Оно меняется вместе с нами — как воспоминания.</span>
+        </div>
+        
+        <div class="inspiration-text inspiration-text--mobile">
+          <span>Уличное искусство не вечно.</span>
+          <span>Оно ускользает от нас —</span>
+          <span>как время. Искусство</span>
+          <span>не статично.</span>
+          <span>Оно меняется</span>
+          <span>вместе с нами —</span>
+          <span>как воспоминания.</span>
+        </div>
+
+        <a class="scrolldown inspiration__scrolldown" aria-label="Перейти к следующей секции" href="#promo">
+          <img class="scrolldown__img" src="img/icons/arrow.svg" alt="">
+        </a>
+
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.inspiration -->
+
+    <div class="section-group">
+
+      <section class="promo" id="promo">
+        <div class="container">
+
+          <h2 class="visually-hidden">Промо-ролик</h2>
+  
+          <p class="promo__title">
+            Остановить время и сохранить<br class="sm-only"> воспоминания —<br>
+            под силу Mi Note 10 с камерой<br class="sm-only"> 108 МП и 5-тикратным зумом.
+          </p>
+  
+          <div class="video promo__video">
+            <a class="video__link" href="https://www.youtube.com/watch?v=DbRlS7pdTzw" target="_blank">
+              <img class="video__media" src="img/video-thumbnail.jpg" alt="НАЗВАНИЕ РОЛИКА">
+            </a>
+
+            <button class="video__button js-play" aria-label="Запустить видео">
+              <img src="img/icons/play.svg" alt="">
+            </button>
+          </div>
+  
+          <a class="scrolldown scrolldown--outline promo__scrolldown" href="#invitation"
+             aria-label="Перейти к следующей секции"
+          >
+            <img class="scrolldown__img" src="img/icons/arrow.svg" alt="">
+          </a>
+  
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.promo -->
+
+      <section class="invitation" id="invitation">
+        <div class="container">
+          <div class="invitation__wrap">
+
+            <h2 class="visually-hidden">Приглашение</h2>
+  
+            <p>
+              Как это возможно — смотрите<br class="sm-only"> <time datetime="2020-03-27">27 марта 2020</time> в проекте,<br>
+              объединяющем искусство<br class="sm-only"> Андрея Бергера и высокие<br class="sm-only"> технологии.
+            </p>
+  
+            <p>
+              Миг за мигом. Деталь за деталью.<br>
+              Все моменты останутся с вами.<br>
+              Ярче, чем в памяти
+            </p>
+  
+            <form class="form invitation__form js-form" action="#">
+              <h3 class="form__title">
+                Оставьте свой е-мейл<br>
+                и мы пришлем вам напоминание 27 марта*
+              </h3>
+              <div class="Input">
+                <input class="Input__input js-email-input" type="text" placeholder="name@domain.com">
+                <button class="Input__submit" type="submit">
+                  <span class="visually-hidden">Отправить</span>
+                </button>
+              </div>
+  
+              <b class="form__error js-error-html"></b>
+            </form>
+            <!-- /.form -->
+
+          </div>
+          <!-- /.invitation__wrap -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.invitation -->
+
+    </div>
+    <!-- /.section-group -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__wrap">
+
+        <a class="logo footer__logo" href="https://www.mi.com" target="_blank">
+          <img class="logo__img" src="img/xiaomi-logo.svg" alt="Xiaomi">
+        </a>
+  
+        <small class="footer__disclaimer">
+          Отправляя свой адрес электронной почты, вы соглашаетесь на получение информационной рассылки
+        </small>
+    
+      </div>
+      <!-- /.footer__wrap -->
+
+      <div class="footer__phone cropper">
+        <img src="img/mi-phone-footer.png" alt="白-丰碑">
+      </div>
+
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+
+  <a class="visually-hidden" href="https://github.com/persiklover" target="_blank">GitHub разработчика</a>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <!-- <script src="lib/picturefill/picturefill.min.js"></script> -->
+  <script src="js/main.min.js"></script>
+</body>
+</html>
